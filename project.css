@@ -1,0 +1,32 @@
+/* project.css */
+
+html {
+  font-size: 20px;
+}
+
+.quote {
+  margin-top: 0.5em;
+}
+
+.quote > span:first-child {
+  font-weight: bold
+}
+
+.quote > span:first-child:after {
+  content:':'
+}
+body {
+ background-color: #e0e0d1;
+ color:  #0d0d0d;
+}
+h1 {
+ color: ;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+p {
+ background-color: #FFDBFF;
+ color: #333300;
+ text-align: center;
+ border: 3px groove #FFFF33;
+}
