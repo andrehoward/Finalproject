@@ -6,7 +6,7 @@ const MongoClient = require('mongodb').MongoClient
 
 var db
 
-MongoClient.connect('mongodb//: c:/users/ahoward1/desktop/treehouse/project/html'), (err, database) => {
+MongoClient.connect('mongo ds023445.mlab.com:23445/mozee-family-reunion -u <andre> -p <andre69>'), (err, database) => {
   if (err) return console.log(err)
   db = database
  app.listen(process.env.PORT || 3000, () => {
